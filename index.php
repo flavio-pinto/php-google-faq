@@ -5,15 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="dist/assets/styles/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-    ?>
     <?php 
     /**
      * Google FAQ
@@ -28,7 +23,7 @@
         <!-- Logo area -->
         <div class="google-header__top">
             <h1 class="google-header__top__heading">
-                <a href="#"><img class="google-header__top__heading__logo" src="assets/images/google-logo.png" alt="Google"></a>
+                <a href="#"><img class="google-header__top__heading__logo" src="dist/assets/images/google-logo.png" alt="Google"></a>
             </h1>
             <h2 class="google-header__top__privacy-and-terms">
                 <a href="#">Privacy e termini</a>
@@ -37,16 +32,14 @@
 
         <!-- Nav -->
         <nav class="google-header__nav">
-            <ul class="google-header__nav__left">
-                <li><a href="">Introduzione</a></li>
-                <li><a href="">Norme sulla privacy</a></li>
-                <li><a href="">Termini di servizio</a></li>
-                <li><a href="">Tecnologie</a></li>
-                <li><a href="">Domande frequenti</a></li>
+            <ul class="google-header__nav__list">
+                <li class="google-header__nav__list__item"><a href="">Introduzione</a></li>
+                <li class="google-header__nav__list__item"><a href="">Norme sulla privacy</a></li>
+                <li class="google-header__nav__list__item"><a href="">Termini di servizio</a></li>
+                <li class="google-header__nav__list__item"><a href="">Tecnologie</a></li>
+                <li class="google-header__nav__list__item--active"><a href="">Domande frequenti</a></li>
+                <li class="google-header__nav__list__item"><a href="">Account Google</a></li>
             </ul>
-            <div class="google-header__nav__right">
-                <span>Account Google</span>
-            </div>
         </nav>
     </header>
 

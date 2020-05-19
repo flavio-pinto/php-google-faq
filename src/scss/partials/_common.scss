@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+// VARIABLES
+$color__main: #5f6368;
+$color__secondary: #3367d6;
+
+// MIXINS
+//Flex
+@mixin display-flex($flexDirection: row, $justifyContent: flex-start, $alignItems: center) {
+    display: flex;
+    flex-direction: $flexDirection;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+
+//Container
+@mixin container($width: 100%) {
+    width: $width;
+    margin: 0 auto;
+}

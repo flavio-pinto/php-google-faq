@@ -1,0 +1,41 @@
+.google-header {
+    padding: 24px 24px 6px;
+    border-bottom: 1px solid $color__main;
+}
+
+.google-header__top {
+    @include display-flex($alignItems: flex-start);
+    &__heading {
+        margin-right: 7px;
+    }
+    &__privacy-and-terms a {
+        font-weight: 400;
+        color: $color__main;
+    }
+}
+
+.google-header__nav {
+    &__list {
+        @include display-flex();
+        padding: 15px 15px 0 0;
+        &__item,
+        &__item--active {
+            margin-right: 42px;
+            & a {
+                color: $color__main;
+            }
+        }
+        &__item:last-child {
+            margin-left: auto;
+            margin-right: 0;
+        }
+        &__item a {
+            padding-bottom: 6px;
+        }
+        &__item--active a {
+            color: $color__secondary;
+            padding-bottom: 3px;
+            border-bottom: 3px solid $color__secondary;
+        }
+    }
+}
