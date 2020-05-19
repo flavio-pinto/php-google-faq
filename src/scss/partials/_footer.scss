@@ -1,0 +1,27 @@
+.footer {
+    @include display-flex($justifyContent: space-between);
+    @include container(978px);
+    font-size: 12px;
+    padding: 10px 0;
+    &__left {
+        @include display-flex();
+        &__item:not(:first-child)::before {
+            content: "\0000b7";
+            padding: 0 5px;
+        }
+        &__item a {
+            color: $color__main;
+            font-weight: 300;
+        }
+    }
+    &__right {
+        @include display-flex($justifyContent: flex-end);
+        &__language-icon {
+            color: $color__secondary;
+            font-size: 20px;
+        }
+        & select {
+            margin-left: 5px;
+        }
+    }
+}

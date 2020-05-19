@@ -91,13 +91,13 @@
     <!-- FOOTER -->
     <footer class="footer">
         <ul class="footer__left">
-            <li><a href="#">Google</a></li>
-            <li><a href="#">Tutto su Google</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Termini</a></li>
+            <li class="footer__left__item"><a href="#">Google</a></li>
+            <li class="footer__left__item"><a href="#">Tutto su Google</a></li>
+            <li class="footer__left__item"><a href="#">Privacy</a></li>
+            <li class="footer__left__item"><a href="#">Termini</a></li>
         </ul>
         <div class="footer__right">
-            <div class="footer__right__language__icon">
+            <div class="footer__right__language-icon">
                 <i class="fas fa-globe"></i>
             </div>
             <div class="footer__right__language__select">
