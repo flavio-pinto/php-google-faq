@@ -89,82 +89,84 @@
     </main>
     
     <!-- FOOTER -->
-    <footer class="footer">
-        <ul class="footer__left">
-            <li class="footer__left__item"><a href="#">Google</a></li>
-            <li class="footer__left__item"><a href="#">Tutto su Google</a></li>
-            <li class="footer__left__item"><a href="#">Privacy</a></li>
-            <li class="footer__left__item"><a href="#">Termini</a></li>
-        </ul>
-        <div class="footer__right">
-            <div class="footer__right__language-icon">
-                <i class="fas fa-globe"></i>
-            </div>
-            <div class="footer__right__language__select">
-                <label for="language"></label>
-                <select name="" id="language">
-                    <option value="af">Afrikaans</option>
-                    <option value="id">Bahasa Indonesia</option>
-                    <option value="ms">Bahasa Melayu</option>
-                    <option value="ca">Català</option>
-                    <option value="cs">Čeština</option>
-                    <option value="da">Dansk</option>
-                    <option value="de">Deutsch</option>
-                    <option value="et">Eesti</option>
-                    <option value="en">English</option>
-                    <option value="en-GB">English (United Kingdom)</option>
-                    <option value="es">Español</option>
-                    <option value="es-419">Español (Latinoamérica)</option>
-                    <option value="eu">Euskara</option>
-                    <option value="fil">Filipino</option>
-                    <option value="fr">Français</option>
-                    <option value="fr-CA">Français (Canada)</option>
-                    <option value="gl">Galego</option>
-                    <option value="hr">Hrvatski</option>
-                    <option value="zu">Isizulu</option>
-                    <option value="is">Íslenska</option>
-                    <option selected="" value="it">Italiano</option>
-                    <option value="sw">Kiswahili</option>
-                    <option value="lv">Latviešu</option>
-                    <option value="lt">Lietuvių</option>
-                    <option value="hu">Magyar</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="no">Norsk</option>
-                    <option value="pl">Polski</option>
-                    <option value="pt-BR">Português (Brasil)</option>
-                    <option value="pt-PT">Português (Portugal)</option>
-                    <option value="ro">Română</option>
-                    <option value="sk">Slovenčina</option>
-                    <option value="sl">Slovenščina</option>
-                    <option value="fi">Suomi</option>
-                    <option value="sv">Svenska</option>
-                    <option value="vi">Tiếng Việt</option>
-                    <option value="tr">Türkçe</option>
-                    <option value="el">Ελληνικά</option>
-                    <option value="bg">Български</option>
-                    <option value="ru">Русский</option>
-                    <option value="sr">Српски</option>
-                    <option value="uk">Українська</option>
-                    <option value="iw">‫עברית‬</option>
-                    <option value="ur">‫اردو‬</option>
-                    <option value="ar">‫العربية‬</option>
-                    <option value="fa">‫فارسی‬</option>
-                    <option value="am">አማርኛ</option>
-                    <option value="mr">मराठी</option>
-                    <option value="hi">हिन्दी</option>
-                    <option value="bn">বাংলা</option>
-                    <option value="gu">ગુજરાતી</option>
-                    <option value="ta">தமிழ்</option>
-                    <option value="te">తెలుగు</option>
-                    <option value="kn">ಕನ್ನಡ</option>
-                    <option value="ml">മലയാളം</option>
-                    <option value="th">ไทย</option>
-                    <option value="ko">한국어</option>
-                    <option value="zh-HK">中文 (香港)</option>
-                    <option value="zh-CN">中文（简体中文）</option>
-                    <option value="zh-TW">中文（繁體中文）</option>
-                    <option value="ja">日本語</option>
-                </select>
+    <footer>
+        <div class="footer">
+            <ul class="footer__left">
+                <li class="footer__left__item"><a href="#">Google</a></li>
+                <li class="footer__left__item"><a href="#">Tutto su Google</a></li>
+                <li class="footer__left__item"><a href="#">Privacy</a></li>
+                <li class="footer__left__item"><a href="#">Termini</a></li>
+            </ul>
+            <div class="footer__right">
+                <div class="footer__right__language-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="footer__right__language__select">
+                    <label for="language"></label>
+                    <select name="" id="language">
+                        <option value="af">Afrikaans</option>
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="ms">Bahasa Melayu</option>
+                        <option value="ca">Català</option>
+                        <option value="cs">Čeština</option>
+                        <option value="da">Dansk</option>
+                        <option value="de">Deutsch</option>
+                        <option value="et">Eesti</option>
+                        <option value="en">English</option>
+                        <option value="en-GB">English (United Kingdom)</option>
+                        <option value="es">Español</option>
+                        <option value="es-419">Español (Latinoamérica)</option>
+                        <option value="eu">Euskara</option>
+                        <option value="fil">Filipino</option>
+                        <option value="fr">Français</option>
+                        <option value="fr-CA">Français (Canada)</option>
+                        <option value="gl">Galego</option>
+                        <option value="hr">Hrvatski</option>
+                        <option value="zu">Isizulu</option>
+                        <option value="is">Íslenska</option>
+                        <option selected="" value="it">Italiano</option>
+                        <option value="sw">Kiswahili</option>
+                        <option value="lv">Latviešu</option>
+                        <option value="lt">Lietuvių</option>
+                        <option value="hu">Magyar</option>
+                        <option value="nl">Nederlands</option>
+                        <option value="no">Norsk</option>
+                        <option value="pl">Polski</option>
+                        <option value="pt-BR">Português (Brasil)</option>
+                        <option value="pt-PT">Português (Portugal)</option>
+                        <option value="ro">Română</option>
+                        <option value="sk">Slovenčina</option>
+                        <option value="sl">Slovenščina</option>
+                        <option value="fi">Suomi</option>
+                        <option value="sv">Svenska</option>
+                        <option value="vi">Tiếng Việt</option>
+                        <option value="tr">Türkçe</option>
+                        <option value="el">Ελληνικά</option>
+                        <option value="bg">Български</option>
+                        <option value="ru">Русский</option>
+                        <option value="sr">Српски</option>
+                        <option value="uk">Українська</option>
+                        <option value="iw">‫עברית‬</option>
+                        <option value="ur">‫اردو‬</option>
+                        <option value="ar">‫العربية‬</option>
+                        <option value="fa">‫فارسی‬</option>
+                        <option value="am">አማርኛ</option>
+                        <option value="mr">मराठी</option>
+                        <option value="hi">हिन्दी</option>
+                        <option value="bn">বাংলা</option>
+                        <option value="gu">ગુજરાતી</option>
+                        <option value="ta">தமிழ்</option>
+                        <option value="te">తెలుగు</option>
+                        <option value="kn">ಕನ್ನಡ</option>
+                        <option value="ml">മലയാളം</option>
+                        <option value="th">ไทย</option>
+                        <option value="ko">한국어</option>
+                        <option value="zh-HK">中文 (香港)</option>
+                        <option value="zh-CN">中文（简体中文）</option>
+                        <option value="zh-TW">中文（繁體中文）</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </div>
             </div>
         </div>
     </footer>

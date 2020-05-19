@@ -1,3 +1,8 @@
+footer {
+    background: #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+}
+
 .footer {
     @include display-flex($justifyContent: space-between);
     @include container(978px);

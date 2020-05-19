@@ -69,6 +69,11 @@ li {
   padding-top: 64px;
 }
 
+footer {
+  background: #f5f5f5;
+  border-top: 1px solid #f5f5f5;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
