@@ -1,0 +1,10 @@
+.main__content {
+    @include container(978px);
+    color: $color__main;
+    padding: 32px;
+    &__faq {
+        &__title {
+            padding-top: 64px;
+        }
+    }
+}

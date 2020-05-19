@@ -78,10 +78,14 @@
         ]
         ?>
         <!-- Print array FAQ content with a foreach cycle -->
-        <?php foreach($faq_array as $faq) { ?>
-            <h2><?php echo $faq['question']; ?> <br><br></h2>
-            <p><?php echo $faq['answer']; ?> <br><br></p>
-        <?php } ?>
+        <div class="main__content">
+            <?php foreach($faq_array as $faq) { ?>
+                <div class="main__content__faq">
+                    <h2 class="main__content__faq__title"><?php echo $faq['question']; ?> <br><br></h2>
+                    <p class="main__content__faq__paragraph"><?php echo $faq['answer']; ?> <br><br></p>
+                </div>
+            <?php } ?>
+        </div>
     </main>
     
     <!-- FOOTER -->

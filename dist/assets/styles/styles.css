@@ -57,3 +57,13 @@ li {
   padding-bottom: 3px;
   border-bottom: 3px solid #3367d6;
 }
+
+.main__content {
+  width: 978px;
+  margin: 0 auto;
+  color: #5f6368;
+  padding: 32px;
+}
+.main__content__faq__title {
+  padding-top: 64px;
+}
